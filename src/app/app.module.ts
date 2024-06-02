@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { NgOptimizedImage } from '@angular/common';
 import { ColorDirective } from './color.directive';
+import { IfDirective } from './if.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ColorDirective
+    ColorDirective,
+    IfDirective
   ],
   imports: [
     BrowserModule,
